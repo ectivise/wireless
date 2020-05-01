@@ -1,0 +1,19 @@
+{% extends 'wireless_web/base.html' %}
+
+
+{% load static %}
+
+{% block content %}
+    <h1>Wireless Speed Tracker</h1>
+        <p>Router Name : {{router1.name}}<br>
+        Router ID : {{router1.id}}<br>
+        Router Download-Speed : {{router1.d_speed}}<br>
+        Router Upload-speed : {{router1.u_speed}}<br>
+        Router Graph : {{router1.graph_img}}<br>
+        </p>
+    <div class='wireless_plot'>
+        <img  src="{% static 'images\wireless_speeds_May_31_20_55_.png' %}" alt="wireless tracker plot">
+    </div>
+    
+
+{% endblock content %}
