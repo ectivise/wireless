@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\User\\Desktop\\intern\\wireless\\wireless_venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\User\\Desktop\\intern\\wireless\\wireless_venv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
